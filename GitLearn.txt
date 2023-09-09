@@ -37,4 +37,13 @@ git restore <file-name> -->
 	have to hit "git restore <file-name>"
 git status -->
 	This command will show the status of your file.
+
+git commit -m <"suitable Message"> -->
+	In order to move file from staging area to local repository area, you just have to hit the command
+	"git commit -m <"suitable Message">". It will move all staging area file to local repository area.
+
+git commit -m <"suitable message"> <file-name> -->
+	In order to commit any single file to local repository, you have to hit the command "git commit -m
+	<"suitable message"> <file-name>". It will commit the single file to local repository area.
+
 	

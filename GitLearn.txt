@@ -1,0 +1,40 @@
+Git Learning....
+	
+	Git is distributive version control system.
+
+Git Architechture...
+	
+	1. Working area.
+	2. Staging area.
+	3. Local repository area.
+
+1. Working area: - This is the area where developer can work on their project. File saved to working area is not yet added to Staging area.
+2. Staging area: - This is the area where developer can add their project files in order to keep track of any changes to the file.
+3. Local repository area: This is the local repository area where files can be commited and stored.
+
+Git Initalization (git init)....
+	In order to track your working file dirctory, you need to initialize the git version control.
+	To do so you just have to open Git Bash application, and hit the command "git init". Now version
+	control is initialized.
+
+git add -->
+	In order to add your untracked file (working area) to tracking area (Staging area), you need to
+	hit the command "git add <file-name>". It will add that particular file to staging area, and any 
+	further modifiction is done to this file will be tracked and maintained
+
+git add. -->
+	In order to add your multiple files from untracked (working area) to tracking area at one go.
+	You just need to hit the command "git add .". It will set all untracked files to tracking area.
+
+git rm --cached <file-name> -->
+	In order to remove your files from tracking area to untracking area, you just need to hit the command
+	"git rm --cached <file-name>". It will remove your particular file from tracking area.
+
+git restore <file-name> -->
+	If you have added any file to staging area post that you have made any modification to that file than
+	git is going to keep track of that changes, and git will ask you to either add that modification to staging 
+	area to keep track or restore the initial (earlier) version of that file. To restore that file, you just
+	have to hit "git restore <file-name>"
+git status -->
+	This command will show the status of your file.
+	
